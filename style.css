@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 40vh;
+    background: url(back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'poppins', sans-serif;
+}
+
+.nav{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.verified > p{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.main > h1{
+    color: white;
+    font-size: 40px;
+    
+    margin-bottom: 50px;
+}
+.contact{
+    border: 2px solid white;
+    color: white;
+    width: 220px;
+    border-radius: 8px;
+    padding: 40px 25px 40px;
+    text-align: center;
+    background-color: black;
+}
+.contact > h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.contact > button{
+    padding: 15px;
+    margin-top: 50px;
+    background-color: black;
+    color: wheat;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+.contact > button:hover{
+    background-color: blue;
+
+}
+
+.purchase{
+    /* margin-top: 10rem; */
+    margin: 10rem 10rem 5rem 10rem;
+}
+.purchase > h1{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.box1{
+    width: 30%;
+    border: 2px solid white;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 20px 2px rgba(162,165,184,1);
+    border-radius: 10px;
+}
+.box1 > i{
+    margin: 20px;
+    font-size: 40px;
+}
+.box1 > h2{
+    margin: 20px 0 20px 0;
+}
+.box1 > p{
+    margin: 20px 0 20px 0;
+}
+.accept{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accept > h1{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.social{
+    margin-top: 50px;
+}
+
+.links{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer{
+    margin-top: 30px;
+    border-top: 1px solid grey; 
+    padding: 10px 60px 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    width: 100px;
+    margin: 20px;
+}
+.image2{
+    width: 50px;
+}
+.select{
+    display: flex;
+    margin: 30px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .purchase{
+        margin: 20px;
+    }
+    .boxes{
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .box1{
+        width: 100%;
+    }
+    footer{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    
+  }
